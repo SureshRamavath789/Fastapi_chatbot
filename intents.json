@@ -1,0 +1,538 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Is anyone there?",
+        "Hello what is your name?",
+        "Who are you?",
+        "What is your purpose?",
+        "What can you do?",
+        "Tell me about yourself"
+      ],
+      "responses": [
+        "Hello! I am Sevak, your assistant at the KAMAi job portal. How can I assist you today?",
+        "Hi! My name is Sevak, and I'm here to help you with your job search and any queries you might have about the KAMAi job portal.",
+        "Hey there! I'm Sevak, your assistant at KAMAi job portal. I can help you find jobs, check your application status, update your profile, and answer any FAQs.",
+        "Greetings! I am Seval, and my purpose is to assist you with your job search, provide updates on your applications, and help you navigate the KAMAi job portal. How can I help you today?",
+        "Hi! I'm Sevak. I can assist you with job searches, application statuses, profile updates, and answer frequently asked questions. What do you need help with?"
+      ],
+      "buttons": [
+        "Job Search Assistance",
+        "Check Application Status",
+        "Update Profile",
+        "FAQs"
+      ]
+    }
+    ,
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Is anyone there?",
+        "How are you?"
+      ],
+      "responses": [
+        "Hey! How can I assist you today?",
+        "Hello! What brings you here today?",
+        "Hi there! How can I help you with your job search?",
+        "Good day! What can I do for you today?",
+        "Hi! Need help with something specific?",
+        "Hey! How's your job search going?"
+      ],
+      "buttons": [
+        "Search Jobs",
+        "Update Profile",
+        "Contact Support"
+      ]
+    }
+    ,
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later",
+        "Catch you later",
+        "See you soon",
+        "Thanks for your help",
+        "Thanks for visiting KAMAi job portal"
+      ],
+      "responses": [
+        "See you later, thanks for visiting KAMAi job portal. If you need further assistance, don't hesitate to reach out to KAMAi support.",
+        "Have a nice day! If you have more questions, feel free to ask or contact KAMAi support.",
+        "Bye! Come back again soon. Remember, KAMAi support is here to help you.",
+        "Talk to you later! Remember, you can reach KAMAi support anytime at jobseekersupport@kamai.com.",
+        "Catch you later! Don't hesitate to contact KAMAi support if you need more assistance."
+      ],
+      "buttons": []
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!"
+      ],
+      "buttons": []
+    },
+    {
+      "tag": "job_search_assistance",
+      "patterns": [
+        "I need help with job search",
+        "Can you help me find a job?",
+        "Job search assistance",
+        "Show me job listings"
+      ],
+      "responses": [
+        "Complete your profile to make recruiters notice your profile. Add relevant work experience, education, skills, and projects. A well-maintained profile increases your chances of getting noticed by potential employers.",
+        "Sure, I can help you with job search. Make sure your profile is up-to-date."
+      ],
+      "buttons": ["Update Profile", "Job Search Assistance"]
+    },
+    {
+      "tag": "application_status",
+      "patterns": [
+        "What is the status of my application?",
+        "Check application status",
+        "Application status"
+      ],
+      "responses": [
+        "You can track your job applications in the 'My Applications' section of your account. This section shows the status of each application, including whether it has been viewed by the employer or if any actions are required from your side."
+      ],
+      "buttons": [
+        "Application Status","Support"
+      ]
+    },
+    {
+      "tag": "update_profile",
+      "patterns": [
+        "How can I update my profile?",
+        "Update my profile",
+        "Edit profile details",
+        "Update profile information",
+        "I want to update my profile"
+      ],
+      "responses": [
+        "To update your profile information, log in to your account and navigate to the 'My Profile' section. Here, you can update your personal details, work experience, education, and upload a new resume or profile picture."
+      ],
+      "buttons": [
+        "Update Profile"
+      ]
+    },
+    {
+      "tag": "resume_tips",
+      "patterns": [
+        "How to get my resume shortlisted?",
+        "Resume tips",
+        "Tips for resume",
+        "Help with resume"
+      ],
+      "responses": [
+        "Here are some tips to get your resume shortlisted:\n1. Tailor your resume for each job application.\n2. Use keywords from the job description.\n3. Highlight your achievements.\n4. Keep it concise and relevant.\n5. Ensure your contact information is correct."
+      ],
+      "buttons": ["Upload Resume"]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "How do I reach customer support if I need help? ",
+
+        "What are the ways to contact support for any issues?",
+        
+        "Who can I talk to if I have questions or problems?",
+        
+        "Where can I get assistance if I encounter an issue?",
+        
+        "How can I get in touch with support for my queries?",
+        
+        "How can I get help if I have a problem?",
+        
+        "Who do I talk to if I have questions?", 
+        
+        "How do I reach support if I need help?", 
+        
+        "Where can I find help for my issues?",
+        
+        "How do I contact support for my questions? ",
+        "I need support",
+        "Help",
+        "Contact support",
+        "Support details",
+        "How can I contact support if I have issues or questions?"
+      ],
+      "responses": [
+        "If you have any issues or questions, you can contact our support team through the 'Contact Us' page on the portal. Alternatively, you can email us at support@jobportal.com or call us at (123) 456-7890. Our support team is available Monday to Friday, from 9 AM to 5 PM."
+      ],
+      "buttons": [
+        "Support"
+      ]
+    },
+    {
+      "tag": "faqs",
+      "patterns": [
+        "FAQs",
+        "Frequently asked questions",
+        "Common questions",
+        "Help with FAQs"
+      ],
+      "responses": [
+        "Here are some frequently asked questions:\n1. How can I contact support if I have issues or questions?\n2. Can I apply for jobs directly through the portal?\n3. Is there a fee for using the portal?\n4. How do I create an account on the job portal?\n5. How do I reset my password?\n6. How can I update my profile information?\n7. Can I save job listings to apply for later?\n8. How do I track my job applications?\n9. Can I set up job alerts?\n10. How can I delete my account?\n11. How do I know if my application was received?\n12. Can I upload multiple resumes?\n13. How do I search for jobs?\n14. Are my personal details secure on the portal?\n15. How can I get notifications for new job postings?"
+      ],
+      "buttons": ["Support","FAQs"]
+    },
+    {
+      "tag": "apply_jobs",
+      "patterns": [
+        "Is it possible to apply for jobs directly on this site?",
+
+      "Can I submit my job application through the portal?",
+      
+      "Are job applications handled directly on this platform?",
+      
+      "How do I apply for jobs using this job portal?",
+      
+      "Can I use this portal to apply for available jobs?",
+      
+      "Can I apply for jobs here?",
+      
+      "How do I apply for jobs on this site?",
+      
+      "Can I send job applications through this portal?",
+      
+      "Is it possible to apply for jobs using this site?",
+      
+      "Can I use this portal to apply for jobs?",
+
+        "Can I apply for jobs directly through the portal?"
+        
+      ],
+      "responses": [
+        "Yes, you can apply for jobs directly through the portal. Simply browse the job listings, select the job you are interested in, and click the 'Apply' button. Follow the prompts to submit your application and upload your resume and cover letter."
+      ],
+      "buttons": [
+        "Browse Jobs"
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+      "Do I need to pay to use Kamai?",
+
+       "Is there a cost to use Kamai?",
+
+      "Is using Kamai free?",
+
+      "Are there any charges for using Kamai?",
+
+     "Do I have to pay to access Kamai?",
+
+     "Do I have to pay to use Kamai?",
+
+     "Is there a cost associated with using Kamai?",
+
+     "Are there any charges for accessing Kamai?",
+
+    "Does it cost anything to use Kamai?",
+
+    "Is Kamai free to use?",
+
+    "Is there a fee for using the portal?"
+      ],
+      "responses": [
+        "No, there is no fee for job seekers to use the portal. Our services are completely free for job seekers. Employers may have different plans and pricing for posting job listings."
+      ],
+      "buttons": [ ]
+    },
+    {
+      "tag": "reset_password",
+      "patterns": [
+        "How can I change my password?",
+
+"What do I do if I forget my password?", 
+
+"How do I get a new password?",
+
+"How do I recover my password?",
+
+"Where do I go to reset my password?",
+
+"What should I do to change my password?",
+
+"How can I recover or reset my password?",
+
+"What’s the procedure for password reset?",
+
+"How can I update my password if I forget it?",
+
+"Where can I find the option to reset my password?",
+        "How do I reset my password?"
+      ],
+      "responses": [
+        "If you have forgotten your password, click on the 'Forgot Password' link on the login page. Enter your registered email address, and we will send you instructions on how to reset your password."
+      ],
+      "buttons": [
+        
+        "Reset Password"
+      ]
+    },
+    {
+      "tag": "save_jobs",
+      "patterns": ["Can I save jobs to apply later?",
+
+      "How do I save job listings?", 
+      
+      "Can I bookmark jobs for later?", 
+      
+      "Is there a way to save jobs for the future?", 
+      
+      "How can I keep a list of jobs to apply for later?", 
+      
+      "Is there a feature to bookmark jobs for later?", 
+      
+      "How can I save jobs to apply later?", 
+      
+      "Can I keep a list of jobs to apply for in the future?", 
+      
+      "Is it possible to save job postings for later review?", 
+        "Can I save job listings to apply for later?"
+      ],
+      "responses": [
+        "Yes, you can save job listings by clicking the 'Save Job' button on the job listing page. Saved jobs can be accessed later from the 'Saved Jobs' section in your account dashboard."
+      ],
+      "buttons": [
+        "Saved Jobs"
+      ]
+    },
+    {
+      "tag": "track_applications",
+      "patterns": ["How can I check my job application status?",
+
+      "Where can I see updates on my applications?", 
+      
+      "How do I follow up on my job applications?", 
+      
+      "Is there a way to track my job applications?", 
+      
+      "How do I know what’s happening with my applications?", 
+      
+      "Where can I check the status of my job applications?", 
+      
+      "How can I monitor my job application progress?", 
+      
+      "Is there a way to see updates on my job applications?", 
+      
+      "How do I follow up on the jobs I’ve applied for?", 
+      
+      "Can I track the applications I’ve submitted?", 
+      
+       
+        "How do I track my job applications?"
+      ],
+      "responses": [
+        "You can track your job applications in the 'My Applications' section of your account. This section shows the status of each application, including whether it has been viewed by the employer or if any actions are required from your side."
+      ],
+      "buttons": [
+        "My Applications"
+      ]
+    },
+    {
+      "tag": "job_alerts",
+      "patterns": ["Can I get notifications for new jobs?",
+
+      "How do I set up job alerts?", 
+      
+      "Can I receive alerts for job openings?", 
+      
+      "How can I get job alerts?", 
+      
+      "Is it possible to get job notifications?", 
+      
+      "Is it possible to receive notifications for new job postings?", 
+      
+      "How can I get alerts for jobs that match my criteria?", 
+      
+      "Can I set notifications for job openings?", 
+      
+      "How do I enable job alerts on this portal?", 
+      
+      "Can I subscribe to job alerts for specific positions?", 
+        "Can I set up job alerts?"
+      ],
+      "responses": [
+        "Yes, you can set up job alerts by navigating to the 'Job Alerts' section in your account. Enter your preferences for job type, location, and keywords, and you will receive email notifications when new jobs matching your criteria are posted."
+      ],
+      "buttons": []
+    },
+    {
+      "tag": "delete_account",
+      "patterns": ["How do I remove my account?",
+
+      "How can I close my account?", 
+      
+      "What do I do to delete my profile?", 
+      
+      "How can I delete my account here?", 
+      
+      "How do I cancel my account?", 
+      
+      "What’s the process to remove my account from the portal?", 
+      
+      "How do I deactivate my account?", 
+      
+      "Can I delete my profile from this job portal?", 
+      
+      "How can I permanently close my account?", 
+      
+      "What steps are needed to delete my account?", 
+      
+       
+        "How can I delete my account?"
+      ],
+      "responses": [
+        "If you wish to delete your account, please contact our support team through the 'Contact Us' page or email us at support@jobportal.com with your request. We will process the deletion of your account within 24 hours."
+      ],
+      "buttons": [
+        "Support", "Delete Account"
+      ]
+    },
+    {
+      "tag": "application_received",
+      "patterns": ["How can I tell if my application was received?",
+
+      "Will I get a confirmation for my application?", 
+      
+      "How do I check if my application went through?", 
+      
+      "Is there a way to know if my application was received?", 
+      
+      "Will I be notified if my application is received?", 
+      
+      "Will I get a confirmation that my application was submitted?", 
+      
+      "How can I verify if my application has been received?", 
+      
+      "Is there a way to confirm that my job application was received?", 
+      
+      "How do I check if my application has been successfully submitted?", 
+        "How do I know if my application was received?"
+      ],
+      "responses": [
+        "After you submit an application, you will receive a confirmation email. Additionally, you can check the status of your application in the 'My Applications' section of your account."
+      ],
+      "buttons": [
+        "My Applications"
+      ]
+    },
+    {
+      "tag": "multiple_resumes",
+      "patterns": ["Can I add more than one resume?", 
+
+      "How do I upload different resumes?", 
+      
+      "Is it possible to upload multiple resumes?", 
+      
+      "Can I save several resumes on the portal?", 
+      
+      "How can I upload multiple versions of my resume?", 
+      
+      "Is it possible to upload more than one resume?", 
+      
+      "Can I add several resumes to my profile?", 
+      
+      "How do I upload different resumes for various jobs?", 
+      
+      "Can multiple versions of my resume be uploaded?", 
+      
+      "Is there a way to save multiple resumes on the portal?", 
+      
+       
+        "Can I upload multiple resumes?"
+      ],
+      "responses": [
+        "Yes, you can upload multiple resumes to your account. When applying for jobs, you can choose which resume you would like to submit with your application."
+      ],
+      "buttons": [
+        "Upload Resume"
+      ]
+    },
+    {
+      "tag": "search_jobs",
+      "patterns": ["How can I find jobs on this site?", 
+
+      "What’s the best way to look for jobs here?", 
+      
+      "How do I use this site to search for jobs?", 
+      
+      "How do I search for job openings?", 
+      
+      "Can you show me how to find jobs?", 
+      
+      "What’s the best way to find jobs on this site?", 
+      
+      "How can I look for job openings on the portal?", 
+      
+      "What steps do I follow to search for jobs here?", 
+      
+      "How do I use the search feature to find jobs?", 
+      
+      "Can you guide me on how to find job listings?",
+        "How do I search for jobs?"
+      ],
+      "responses": [
+        "To search for jobs, use the search bar on the homepage. You can enter keywords, job titles, or company names. You can also filter results by location, industry, and job type to narrow down your search."
+      ],
+      "buttons": [
+        "Search Jobs"
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": ["Is my information safe on this site?", 
+
+      "How is my personal data protected?", 
+      
+      "Are my details secure here?", 
+      
+      "What keeps my information safe on this portal?", 
+      
+      "Is my personal info secure on this site?", 
+      
+      "How is my personal information protected on this site?", 
+      
+      "What security measures are in place for my data?", 
+      
+      "Is my personal data safe on this job portal?", 
+      
+      "How does the portal ensure the security of my information?", 
+      
+      "Are there privacy protections for my personal details on this platform?", 
+        "Are my personal details secure on the portal?"
+      ],
+      "responses": [
+        "Yes, we take your privacy and security very seriously. Our portal uses advanced encryption and security measures to protect your personal information. For more details, please refer to our Privacy Policy."
+      ],
+      "buttons": []
+    },
+    {
+      "tag": "job_notifications",
+      "patterns": [
+        "How can I get notifications for new job postings?"
+      ],
+      "responses": [
+        "To get notifications for new job postings, set up job alerts in the 'Job Alerts' section of your account. You can specify the criteria for the jobs you are interested in, and you will receive email notifications when matching jobs are posted."
+      ],
+      "buttons": []
+    }
+  ]
+}
